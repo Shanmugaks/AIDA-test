@@ -9,7 +9,7 @@ exports.handler = function(event, context, callback)
 	callback(error, result);
 }
  
-function MyLambdaFunction (InputParams) 
+function MyLambdaFunction () 
 {
 	// MyLambdaFunction logic here
 	var Result = 'My Lambda Tester';
